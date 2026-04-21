@@ -1,15 +1,12 @@
 # Image and Audio Steganography
-By Ronald Deng
-
-## Overview
-A Python-based implementation of steganography techniques for both image and audio files.
+A Python-based implementation of steganography techniques for both image and audio files, made for CSCI 10 at Williams College.
 
 ## Installation Instructions
 `pip install -r requirements.txt`
 
 ## Usage
 
-The program uses three subcommands: `encode`, `decode`, and `spectrogram`. The type of operation (image vs. audio) is automatically inferred from the file extensions—no need to specify it manually.
+The program uses three subcommands: `encode`, `decode`, and `spectrogram`. 
 
 ### Encode/decode text in an image
 ```bash
@@ -49,12 +46,3 @@ I called this "encoding" and "decoding", but really it is just putting the image
 - Librosa: Audio processing library
 - SoundFile: Audio file I/O
 - Matplotlib: Data visualization
-
-## API References
-- [Pillow](https://pillow.readthedocs.io/en/stable/)
-- [NumPy](https://numpy.org/doc/stable/reference/)
-- [Librosa](https://librosa.org/doc/latest/index.html)
-- [Librosa Display](https://librosa.org/doc/main/display.html)
-- [SoundFile](https://pypi.org/project/soundfile/)
-- [Matplotlib](https://matplotlib.org/stable/api.html)
-- [Argparse](https://docs.python.org/3/library/argparse.html)
